@@ -12,6 +12,7 @@ class GamesRoutes{
     config(): void{
         //ruta para la ruta inicial ./ devuelve msg
         this.router.get('/', gamesController.index);
+        this.router.post('/', gamesController.create);
     }
 }
 

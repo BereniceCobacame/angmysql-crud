@@ -7,6 +7,9 @@ class GamesController{
         pool.query('DESCRIBE games');
         res.json('games');
     }
+    public create(req: Request, res: Response){
+        res.json({text: 'creando un juego'});
+    }
 }
 
 const gamesController = new GamesController();

@@ -1,7 +1,7 @@
 export default{
 
     database: {
-        host: 'localhost',
+        host: 'Localhost',
         user: 'root',
         password: '',
         database: 'gamesdb'

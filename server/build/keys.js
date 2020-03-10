@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     database: {
-        host: 'localhost',
+        host: 'Localhost',
         user: 'root',
         password: '',
         database: 'gamesdb'

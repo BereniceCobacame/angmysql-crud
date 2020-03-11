@@ -13,8 +13,11 @@ class GamesRoutes {
     }
     config() {
         //ruta para la ruta inicial ./ devuelve msg
-        this.router.get('/', gamesController_1.default.index);
+        this.router.get('/', gamesController_1.default.list);
+        this.router.get('/:id', gamesController_1.default.listu);
         this.router.post('/', gamesController_1.default.create);
+        this.router.put('/:id', gamesController_1.default.update);
+        this.router.delete('/:id', gamesController_1.default.delete);
     }
 }
 const gamesRoutes = new GamesRoutes();
